@@ -461,7 +461,7 @@ heading1 = customtkinter.CTkLabel(frame_right, text='IS MY PASSWORD SECURE?').gr
                                                                                    sticky="we")
 
 # Load the database of most common passwords
-with open('10-million-password-list-top-1000000.txt', 'r') as f:
+with open('password-list.txt', 'r') as f:
     common_passwords = set([line.strip() for line in f.readlines()])
 
 
